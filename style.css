@@ -1,0 +1,242 @@
+body{
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+}
+
+.logo{
+    text-align: left;
+    margin: 2em;
+}
+
+/*main{
+    width: flex;
+}*/
+
+.entrada{
+    display: block;
+    width: 60%;
+    justify-content: center;
+}
+
+.input-texto{
+    background: #E5E5E5;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    width: 28em;
+    height: 13em;
+    left: 3.5em;
+    top: 4em;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.input-texto::placeholder{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+}
+
+.advertencia{
+    position: absolute;
+    width: 60%;
+    top: 36em;
+    padding: 0.5em;
+}
+
+.reglas{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    margin: 10px 0 10px 16em;
+}
+
+.signo-admiracion{
+    float: left;
+    margin: 10px 0 10px 10em;
+}
+
+.botones{
+    position: absolute;
+    display: flex;
+    width: 60%;
+    top: 39em;
+    justify-content: center;
+    flex-direction: row;
+    padding: 24px;
+}
+
+.boton-encriptar{
+    position: static;
+    width: 18em;
+    height: 4em;
+    background: #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    flex: none;
+    color: #FFFFFF;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+.boton-desencriptar{
+    position: static;
+    width: 18em;
+    height: 4em;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+.sec-salida{
+    display: block;
+    flex-direction: column;
+    width: 30%;
+}
+
+.salida{
+    display: flex;;
+    flex-direction: column;
+    position: absolute;
+    width: 400px;
+    height: 49em;
+    left: 77em;
+    top: 2em;
+    align-items:center;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px;
+}
+
+.salida-msj{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.munheco{
+    position: relative;
+    top: 9em;
+    width: 336px;
+    height: 304px;
+    
+}
+
+.msj1{
+    position: relative;
+    width: 336px;
+    height: 58px;
+    left: 0px;
+    top: 6.5em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.msj2{
+    position: relative;
+    width: 336px;
+    height: 48px;
+    left: 0px;
+    top: 10em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.boton-copiar{
+    position: relative;
+    width: 18em;
+    height: 4em;
+    bottom: -12em;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+}
+
+.output-texto{
+    background: #FFFFFF;
+    position: relative;
+    top: 4em;
+    resize: none;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 30px;
+}
+
+.pie-pagina a{
+    color: #0A3871;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.pie-pagina a:hover{
+    color: black;
+    text-decoration: underline;
+}
